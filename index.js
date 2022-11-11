@@ -30,7 +30,7 @@ class Email {
             to: recev, // list of receivers
             subject: title, // Subject line
             text: message, // plain text body
-            html: "<b>Hello world?</b>", // html body
+            html: `<b>${message}</b>`, // html body
         });
         info;
     }
