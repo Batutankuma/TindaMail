@@ -2,14 +2,18 @@
   "name": "tindamail",
   "version": "1.0.0",
   "type": "module",
-  "description": "",
+  "description": "Simple modul send mail",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": ["Email","nodemailer","gmail","outlook","tinda","notification"],
+  "author": "Batuta Nkuma Sael",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Batutankuma/TindaMail.git"
+  },
   "dependencies": {
     "nodemailer": "^6.7.8"
   }
